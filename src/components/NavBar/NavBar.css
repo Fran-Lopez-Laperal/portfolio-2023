@@ -1,3 +1,8 @@
+.scroll{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 .nav-bar{
     backdrop-filter: blur(0.6rem);
     background: hsla(0,0%,5%,.329);

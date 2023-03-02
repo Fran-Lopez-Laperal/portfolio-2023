@@ -14,6 +14,8 @@ import HardSkills from '../../components/HardSkills/HardSkills'
 
 
 function Home() {
+
+
     return (
         <>
             <div className='home'>
@@ -69,18 +71,28 @@ function Home() {
                 </div>
             </div>
             <div>
-                <HardSkills/>
+                <HardSkills
+                    backgroundColor={'red'}
+                    overflow-y={'scroll'}
+                    scroll-behavior={'smooth'}
+                />
             </div>
             <div>
-                <AboutMe />
+                <AboutMe
+                    overflow-y={'scroll'}
+                    scroll-behavior={'smooth'} />
             </div>
 
             <div>
-                <Proyects />
+                <Proyects
+                    overflow-y={'scroll'}
+                    scroll-behavior={'smooth'} />
             </div>
 
             <div>
-                <EmailSend />
+                <EmailSend
+                    overflow-y={'scroll'}
+                    scroll-behavior={'smooth'} />
             </div>
         </>
 

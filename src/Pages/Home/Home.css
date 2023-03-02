@@ -3,8 +3,10 @@
     display: flex;
     justify-content: space-around;
     min-height: 100vh;
-    width: 100%;
+    width: auto;
 }
+
+
 
 
 .animation-home{
@@ -64,6 +66,7 @@
     cursor: pointer;
     width: 150px;
 }
+
 
 @media(max-width:1025px){
     .btn-group{
@@ -140,6 +143,8 @@
 .main-container{
     align-items: center;
     display: flex;
+    text-align: justify;
+    right: 0px;
 }
 
 @media(max-width:1024px){
@@ -172,12 +177,12 @@
 
 .name-head h1{
    font-size: 100px;
-   justify-content: center;
+   justify-content: start;
 }
 
 .name-head{
     margin-bottom: 70px;
-    padding: 30px;
+    margin-left: 0px;
 }
 
 /* @media(max-width:1024px){
