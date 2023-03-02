@@ -1,0 +1,19 @@
+.footer{
+    color:white;
+    background-color: rgb(3, 189, 154);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+
+@media(max-width:1024px){
+    .footer{
+        align-items: center;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+}

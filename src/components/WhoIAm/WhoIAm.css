@@ -1,0 +1,15 @@
+.about-me-info{
+    margin-top: 70px;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+.about-me-info p{
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}

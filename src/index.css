@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700;800;900&family=Open+Sans:wght@300&family=Roboto&family=Titillium+Web:wght@300&family=Work+Sans&display=swap');
+
+
+
+
+
+body {
+    font-family:'Roboto', sans-serif; 
+    background-image:
+    radial-gradient(rgb(3, 189, 154) 3px, rgb(91, 91, 91) 1px),
+    radial-gradient(rgb(3, 189, 154) 3px, rgb(91, 91, 91) 1px);
+    background-position: 0 0. 25px 25px;
+    background-size: 50px 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.letters-head-section{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    font-weight:bold;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: start !important;
+    text-decoration: underline;
+}
+
+@media(max-width:1024px){
+    .letters-head-section{
+        font-size: 25px;
+        margin-left: 10px !important;
+    }
+}
+
+hr{
+    background-color: rgb(3, 189, 154);
+    border:none;
+    border-top:1px dashed rgb(3, 189, 154);
+    color:rgb(3, 189, 154);
+    margin-top: 5px;
+    width:100%;
+ }

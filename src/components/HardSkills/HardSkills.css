@@ -1,0 +1,53 @@
+.hard-skills{
+    background-color: rgb(91, 91, 91);
+    min-height: 100vh;
+}
+
+.div-container{
+    background-color: rgb(124, 124, 124);
+    border-radius: 20px;
+    box-shadow: 1px 1px 14px black;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5rem;
+}
+
+.tech-container{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-auto-rows: 8rem;  
+    gap: 3rem;
+    margin-left: 4rem;
+    padding: 1rem;
+}
+
+.tech-container figure > img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    max-width: 100%;
+    
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .react-logo img{
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

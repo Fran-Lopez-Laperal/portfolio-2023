@@ -1,0 +1,255 @@
+.home{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.animation-home{
+    color: white;
+    display: flex;
+    font-size: 50px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 200px;
+ 
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.animation-home p {
+    filter: drop-shadow(rgb(3, 189, 154) 0px 0px 0.3rem);
+    font-weight: 800;
+    margin-right: 10px;
+    height: 100px;
+}
+
+.animation-home ul{
+    list-style: none;
+    animation: change 9s infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 10px;
+}
+
+.animation li{
+    color: rgb(3, 189, 154);
+    filter: drop-shadow(rgb(253, 253, 253) 1px 1px 0.1rem);
+}
+
+.btn-home{
+    background-color: rgb(91, 91, 91);    border-radius: 130px;
+    border: 1px solid rgb(3, 189, 154) ;
+    box-shadow: 5px 5px 0px 1.5px rgb(3, 189, 154);
+    color: rgb(3, 189, 154);
+    height: 55px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    outline: none;
+    transition: all ease 100ms;
+    cursor: pointer;
+    width: 150px;
+}
+
+
+.btn-home-cv{
+    background: none;
+    border-radius: 30px;
+    border: 1px solid rgb(3, 189, 154) ;
+    color: rgb(3, 189, 154);
+    height: 35px;
+    margin-left: 100px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+@media(max-width:1025px){
+    .btn-group{
+        width: 200px;
+    }
+}
+
+@media(max-width:1025px){
+    .btn-home-cv{
+        margin-top: 10px;
+    }
+}
+
+.btn-home-cv a{
+    color:rgb(3, 189, 154) ;
+    text-decoration: none;
+}
+
+/*este efecto actice sirve para hacer el efecto de pulsar boton*/
+.btn-home:active{
+   transform: translateY(10px);
+   box-shadow: 0px 0px 0px rgb(3, 189, 154);
+}
+
+.links-home{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    position:absolute;
+    margin-top: -180px;
+}
+
+.links-home button{
+   margin-left: 20px;
+   cursor: pointer;
+}
+
+.btn-media img{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-media-1 img{
+    width: 60px;
+    height: 40px;
+}
+
+.btn-media-1 button {
+    background-color:rgb(3, 189, 154) ;
+    border-radius: 55px;
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+.btn-media button {
+    background-color:rgb(3, 189, 154) ;
+    border-radius: 55px;
+    border: none;
+    width: 60px;
+    height: 60px
+}
+
+@media(max-width:1024px){
+    .animation-home{
+        font-size: 25px;
+        font-weight: bolder;  
+        justify-content: center;  
+        margin-top: -170px;  
+    }
+}
+
+.main-container{
+    align-items: center;
+    display: flex;
+}
+
+@media(max-width:1024px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .info-name{
+        min-height: 100vh;
+    }
+}
+
+.main-img{
+    width: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+    object-position: center center;
+    outline: rgb(108, 121, 125) solid 2px;
+}
+
+@media (max-width:1024px) {
+    .main-img{
+        height: calc(100vh - 86px);
+        object-position: center center;
+    }
+}
+
+.name-head h1{
+   font-size: 100px;
+   justify-content: center;
+}
+
+.name-head{
+    margin-bottom: 70px;
+    padding: 30px;
+}
+
+/* @media(max-width:1024px){
+    .name{
+        display: flex;
+    }
+} */
+
+@media(max-width:1024px){
+   .name-head{
+        margin-top: 0px;
+        min-height: 70vh;
+        margin-left: 0px;
+   } 
+}
+
+.name-head h1{
+    color: white;
+    width: 50%;
+    line-height: 5.5rem;
+    font-weight: 900 !important;
+    filter: drop-shadow(rgb(3, 189, 154) 0px 0px 0.3rem);
+  
+}
+
+@media(max-width:1024px){
+    .name-head h1{
+        width: 80%;
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    } 
+ }
+
+ @media(max-width:1024px){
+    .name-head small{
+        font-size: 5.5rem;
+        line-height:normal;
+    } 
+ }
+
+.name-head small{
+    color:rgb(8, 161, 133);
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+/* .main-img:hover{
+    -webkit-transform: rotate(360deg);
+    transform:  rotateY(360deg);
+} */
+
+@keyframes change {
+    
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+    
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+
+    100%{margin-top: 0%;}
+
+}
+
+
+
