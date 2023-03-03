@@ -15,7 +15,7 @@ import mysql from '../../assets/images/mysql.png'
 function HardSkills() {
     return (
         <div className="hard-skills">
-            <p className='letters-head-section'>Technologies</p>
+            <p className='letters-head-section'>Tecnologías</p>
             <div className='div-container'>
                 <div className='tech-container'>
                     <figure className='react-logo'>
