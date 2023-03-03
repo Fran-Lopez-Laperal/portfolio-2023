@@ -34,21 +34,29 @@
 }
 
 @media(max-width:1024px){
+
+  .div-container {
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    width: 350px;
+  }
+
   .tech-container figure > img {
     width: 100px;
     height: 100px;
     object-fit: contain;
     
-}
+  }
 
-.tech-container{
+  .tech-container{
 
-  grid-template-columns: repeat(auto-fit, minmax(3rem, 2fr));
-  grid-auto-rows: 4rem;  
-  margin-left: 0;
-  gap:2rem;
-  padding: 2rem;
-}
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 2fr));
+    grid-auto-rows: 6rem;  
+    margin-left: 0;
+    gap:2rem;
+    padding: 2rem;
+  }
 }
 
 
