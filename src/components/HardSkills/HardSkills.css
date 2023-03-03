@@ -1,5 +1,4 @@
 .hard-skills{
-    background-color: rgb(91, 91, 91);
     min-height: 100vh;
 }
 
@@ -59,6 +58,13 @@
   }
 }
 
+@media(min-width:1024px){
+  .div-container{
+    width: 1400px;
+    margin: auto;
+    margin-top: 10rem;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
     .react-logo img{
@@ -66,6 +72,8 @@
     }
 
   }
+
+
 
   
   @keyframes App-logo-spin {

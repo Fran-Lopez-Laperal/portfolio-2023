@@ -6,7 +6,12 @@
     width: auto;
 }
 
-
+@media(min-width:1024px){
+    .app-body{
+      width: 1400px;
+      margin: auto;
+    }
+  }
 
 
 .animation-home{

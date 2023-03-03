@@ -54,48 +54,51 @@ function AboutMe() {
                 </div>
             </section>
             <section className='section-me'>
-                <p className='section-me-text' style={{ marginTop: '50px' }}>
-                    Mi nombre es Francisco López y soy Desarrollador Junior Full Stack.
-                    Soy de Sanxenxo, Pontevedra un precioso pueblo situado en las Rias Baixas.
-                </p>
-                <p className='section-me-text'>
-                    En Octubre de 2021 comencé el Bootcamp en Ironhack tras tomar la decisión de querer dar un giro a mi vida profesional.
-                    Mi formación hasta el momento ha estado enfocada en la Actividad Física y el Deporte, pero desde bien pequeño me ha gustado
-                    la tecnología y he tenido curiosidad por mantenerme actualizado en este mundo digital que no para de cambiar.
-                </p>
-                <p className='section-me-text'>
-                    Soy una persona pro activa, enérgica, apasionada con todo lo que hago y me encanta trabajar en equipo.
-                    Al mismo tiempo que estoy en la búsqueda de esa oportunidad que me permita seguir creciendo como desarrollador,
-                    continúo mi formación realizando cursos basados en las tecnologías que he aprendido durante el Bootcamp así como otras que
-                    creo son muy interesantes para mi desarrollo.
-                </p>
-
-
-
-                <section className='section-me-check'>
-                    <p>
-                        <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
-                        Desarrollo de una aplicación Full Stack MERN
+                <div className='container-section-me'>
+                    <p className='section-me-text' style={{ marginTop: '50px' }}>
+                        Mi nombre es Francisco López y soy Desarrollador Junior Full Stack.
+                        Soy de Sanxenxo, Pontevedra un precioso pueblo situado en las Rias Baixas.
                     </p>
-                    <p>
-                        <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
-                        Desarrollo Front End con React.
+                    <p className='section-me-text'>
+                        En Octubre de 2021 comencé el Bootcamp en Ironhack tras tomar la decisión de querer dar un giro a mi vida profesional.
+                        Mi formación hasta el momento ha estado enfocada en la Actividad Física y el Deporte, pero desde bien pequeño me ha gustado
+                        la tecnología y he tenido curiosidad por mantenerme actualizado en este mundo digital que no para de cambiar.
                     </p>
-                    <p>
-                        <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
-                        Desarrollo y consumo de API´S
+                    <p className='section-me-text'>
+                        Soy una persona pro activa, enérgica, apasionada con todo lo que hago y me encanta trabajar en equipo.
+                        Al mismo tiempo que estoy en la búsqueda de esa oportunidad que me permita seguir creciendo como desarrollador,
+                        continúo mi formación realizando cursos basados en las tecnologías que he aprendido durante el Bootcamp así como otras que
+                        creo son muy interesantes para mi desarrollo.
                     </p>
 
-                </section>
 
 
-                <p className='section-me-text' style={{ marginBottom: '50px' }}>
-                    Como Junior aprecio mucho la cercanía con los demás integrantes del equipo para así poder aprender con mayor facilidad y agilidad,
-                    por lo que valoro cualquier modalidad de jornada.
+                    <section className='section-me-check'>
+                        <p>
+                            <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
+                            Desarrollo de una aplicación Full Stack MERN
+                        </p>
+                        <p>
+                            <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
+                            Desarrollo Front End con React.
+                        </p>
+                        <p>
+                            <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
+                            Desarrollo y consumo de API´S
+                        </p>
 
-                    Busco hacerme un hueco en este sector y conseguir los objetivos que son importantes para mi tanto personal como profesionalmente.
-                    
-                </p>
+                    </section>
+
+
+                    <p className='section-me-text' style={{ marginBottom: '50px' }}>
+                        Como Junior aprecio mucho la cercanía con los demás integrantes del equipo para así poder aprender con mayor facilidad y agilidad,
+                        por lo que valoro cualquier modalidad de jornada.
+
+                        Busco hacerme un hueco en este sector y conseguir los objetivos que son importantes para mi tanto personal como profesionalmente.
+
+                    </p>
+                </div>
+
             </section>
 
         </div>

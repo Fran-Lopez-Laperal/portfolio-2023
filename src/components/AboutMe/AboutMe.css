@@ -1,23 +1,37 @@
 .about-me{
-    background-color: rgb(91, 91, 91);
     min-height: 100vh;
 }
 
 
 
+
 @media(min-width:1024px){
+
+    .about-me{
+        width: 1400px;
+        margin: auto;
+    }
+
     .section-about-me{
         display: flex;
         justify-content: space-around;
-        margin-top: 10%;
     }
 }
 
 .section-me{
+    background-color: rgb(124, 124, 124);
+    box-shadow: 1px 1px 14px black;
+    border-radius: 20px;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 100px 0px 100px
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: auto;
+}
+
+.container-section-me{
+    padding: 2rem;
 }
 
 @media(max-width:1024px){
@@ -43,7 +57,7 @@
 }
 
 .section-me-check p{
-    color: #f6e3e3;
+    color: #121212;
     line-height: 50px;
 }
 
@@ -56,7 +70,7 @@
 }
 
 .section-me-text{
-    color: #cbcaca;
+    color: #000000;
     font-size: 1rem;
     font-weight: 300;
     line-height: 2rem;
