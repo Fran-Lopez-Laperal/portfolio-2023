@@ -33,17 +33,30 @@
     
 }
 
-#express img{
-fill: aliceblue;
+@media(max-width:1024px){
+  .tech-container figure > img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    
 }
 
+.tech-container{
 
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 2fr));
+  grid-auto-rows: 4rem;  
+  margin-left: 0;
+  gap:2rem;
+  padding: 2rem;
+}
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
     .react-logo img{
       animation: App-logo-spin infinite 20s linear;
     }
+
   }
 
   

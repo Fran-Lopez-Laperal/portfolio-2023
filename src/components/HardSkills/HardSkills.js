@@ -12,11 +12,9 @@ import node from '../../assets/images/Node.png'
 import express from '../../assets/images/expressjs_logo_icon_169185.png'
 import mysql from '../../assets/images/mysql.png'
 
-function HardSkills(props) {
-
-
+function HardSkills() {
     return (
-        <div  className="hard-skills">
+        <div className="hard-skills">
             <p className='letters-head-section'>Technologies</p>
             <div className='div-container'>
                 <div className='tech-container'>

@@ -72,27 +72,27 @@ function Home() {
             </div>
             <div>
                 <HardSkills
-                    backgroundColor={'red'}
-                    overflow-y={'scroll'}
-                    scroll-behavior={'smooth'}
+                    style={{ overflowY: 'scroll', scrollBehavior: 'smooth' }}
                 />
             </div>
             <div>
                 <AboutMe
-                    overflow-y={'scroll'}
-                    scroll-behavior={'smooth'} />
+                    style={{ overflowY: 'scroll', scrollBehavior: 'smooth' }}
+                />
             </div>
 
             <div>
                 <Proyects
-                    overflow-y={'scroll'}
-                    scroll-behavior={'smooth'} />
+                    style={{ overflowY: 'scroll', scrollBehavior: 'smooth' }}
+                />
             </div>
 
             <div>
                 <EmailSend
-                    overflow-y={'scroll'}
-                    scroll-behavior={'smooth'} />
+                    style={{ overflowY: 'scroll', scrollBehavior: 'smooth' }}
+
+
+                />
             </div>
         </>
 
