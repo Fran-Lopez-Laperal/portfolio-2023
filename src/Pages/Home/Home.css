@@ -193,8 +193,8 @@
 
 @media(max-width:1024px){
    .name-head{
-        margin-top: 0px;
-        min-height: 70vh;
+        margin-top: 170px;
+        min-height: 50vh;
         margin-left: 0px;
    } 
 }
