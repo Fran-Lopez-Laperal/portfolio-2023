@@ -36,8 +36,9 @@
 
 @media(max-width:1024px){
     .section-me{
-        width: 95%;
-        margin: 0px 0px 0px 10px;
+        margin: auto;
+        width: 370px;
+        height: 800px;
     }
 }
 
@@ -48,13 +49,7 @@
 
 }
 
-@media(max-width:1024px){
-    .section-me-check{
-        margin-bottom: 15px;
-        margin-top: 15px;
-        margin-left: 0;
-    }
-}
+
 
 .section-me-check p{
     color: #121212;
@@ -78,6 +73,18 @@
     margin-top: 10px;
     text-align: justify;
 }
+
+@media(max-width:1024px){
+    .section-me-text{
+       
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        margin-bottom: 10px;
+       
+        text-align: justify;
+    }
+}
+
 
 .letters-about-section{
     color: black;
