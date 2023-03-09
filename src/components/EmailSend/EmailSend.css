@@ -40,7 +40,7 @@
 }
 
 @media(max-width:1024px){
-    .info-container h1{
+    .info-h1{
         font-size: 20px;
     }
 }
@@ -55,7 +55,7 @@
 }
 
 
-.info-container h1{
+.info-h1{
     color:rgb(3, 189, 154);
     margin-top: 25px;
     text-shadow: rgb(10 207 151) 0px 0px 10px;
@@ -69,6 +69,11 @@
 .info-container a{
     color: white;
    text-decoration: none;
+}
+
+.div-send-message{
+    margin-top:140px;
+    margin-right: 70px;
 }
 
 
@@ -190,3 +195,68 @@
 @media(max-width:1024px){
 
 }
+
+.send-message-h1 {
+    margin-top: 25px;
+    text-shadow: rgb(218, 219, 219) 0px 0px 15px;
+}
+
+
+.parpadea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: rgb(3, 189, 154);
+    color:rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 1.7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

@@ -7,7 +7,8 @@ import './EmailSend.css'
 
 function EmailSend() {
 
-    const [form, setForm] = useState(false)
+    const [mensajeEnviado, setMensajeEnviado] = useState(false);
+    const [form, setForm] = useState(false);
 
     const navigate = useNavigate()
 
@@ -16,8 +17,11 @@ function EmailSend() {
 
         emailjs.sendForm('service_k7khs1e', 'template_x6k8b7e', e.target, 'luKgETKyzUKU2Ynic')
             .then(() => {
-                navigate('/')
+                navigate('')
             })
+
+        setMensajeEnviado(true)
+        setForm(true)
     }
 
 
@@ -38,45 +42,46 @@ function EmailSend() {
                 <div className='form-container'>
 
                     <div className='info-container'>
-                        <h1>CONTACTA<span style={{ color: 'white' }}> CONMIGO</span></h1>
-                        <h1>Nombre</h1>
+                        <h1 className='info-h1'>CONTACTA<span style={{ color: 'white' }}> CONMIGO</span></h1>
+                        <h1 className='info-h1'>Nombre</h1>
                         <h4>Francisco José López Laperal</h4>
-                        <h1>Email</h1>
+                        <h1 className='info-h1'>Email</h1>
                         <a href="mailto:fransanxenxo@gmail.com">fransanxenxo@gmail.com</a>
-                        <h1>Teléfono</h1>
+                        <h1 className='info-h1'>Teléfono</h1>
                         <h4> 🇪🇸 +34 - 677  116  137 </h4>
                     </div>
-                    {form ? (
+                    <div>
 
-                        <form className="form-message" onSubmit={handleSubmit}>
-                            <div className='input-container'>
-                                <div className="form">
-                                    <input type="text" name="nombre" id='nombre' placeholder='  Tú Nombre' />
+                        {!form ?
+                            <form className="form-message" onSubmit={handleSubmit}>
+                                <div className='input-container'>
+                                    <div className="form">
+                                        <input type="text" name="nombre" id='nombre' placeholder='  Tú Nombre' />
+                                    </div>
+
+                                    <div className="form">
+                                        <input type='text' name="email" id='nombre' placeholder='  example@example.com' />
+                                    </div>
+
+                                    <div className="form-text">
+                                        <textarea type="text" name="mensaje" id='mensaje' placeholder='  Déjame tú mensaje...'></textarea>
+                                    </div>
+                                    <div className='email-send'>
+                                        <button type="submit" id='email-send'>
+                                            Enviar mensaje
+                                        </button>
+                                    </div>
+
                                 </div>
 
-                                <div className="form">
-                                    <input type='text' name="email" id='nombre' placeholder='  example@example.com' />
-                                </div>
-
-                                <div className="form-text">
-                                    <textarea type="text" name="mensaje" id='mensaje' placeholder='  Déjame tú mensaje...'></textarea>
-                                </div>
-                                <div className='email-send'>
-                                    <button type="submit" id='email-send'>
-                                        Enviar mensaje
-                                    </button>
-                                </div>
-
+                            </form>
+                            :
+                            <div className='div-send-message'>
+                                {mensajeEnviado &&
+                                    <h1 className='send-message-h1 parpadea'>Mensaje Enviado</h1>}
                             </div>
-
-                        </form>
-                    )
-                        :
-                        <button className='email-btn' onClick={() => setForm(!form)}>
-                            Escribir mensaje
-                        </button>
-
-                    }
+                        }
+                    </div>
                 </div>
 
 

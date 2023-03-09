@@ -1,155 +1,111 @@
+
+import { Link } from 'react-router-dom'
 import './Proyects.css'
-import bike_locker from '../../assets/images/bike-locker.png'
-import rallye from '../../assets/images/placa.png'
-import jorunal from '../../assets/images/journal-app.png'
-import mern from '../../assets/images/MERN.png'
-import postman from '../../assets/images/postman.png'
-import bootstrap from '../../assets/images/bootstrap-social-logo.png'
-// import css from '../../assets/images/css.png'
+import rallye2022 from '../../assets/images/placa.png'
+import bikeLocker from '../../assets/images/bike-locker.png'
+import hackedex from '../../assets/images/Hackedex.png'
+import cyber from '../../assets/images/Cyber Space.png'
+import postit from '../../assets/images/postit.png'
+
 
 function Proyects() {
-
-    let animado = document.querySelectorAll('.card_div')
-    function mostrarScroll() {
-        let scrollTop = document.documentElement.scrollTop;
-
-        for (let i = 0; i < animado.length; i++) {
-            let alturaAnimado = animado[i].offsetTop;
-            if (alturaAnimado - 300 < scrollTop) {
-                animado[i].style.opacity = 1;
-            }
-        }
-    }
-
-    window.addEventListener('scroll', mostrarScroll)
-
-
 
     return (
         <>
             <div className="proyects" id="proyects">
                 <p className='letters-head-section'>Proyectos</p>
-                <div className='cards-container'>
-                    {/* <div className='card-container'>
-                    <p> CYBER SPACE</p>
-                    <div className='card'>
-                        <img src={bike_locker} alt={bike_locker} />
-                        <hr />
-                        <div className='card-body'>
-
-                        </div>
-                    </div>
-                    <button className='btn-git'>
-                        <a className='btn-git-a' href="/" style={{ textDecoration: 'none', color: 'white' }}>Source</a>
-                    </button>
-                </div> */}
-                    <div className='card_div'>
-                        <p>WEB PERSONAL</p>
-                        <div className='card'>
-                            <div className='img-card-portfolio'>
-
-                                <p className='letters'>FLL  💻</p>
-                            </div>
-
-                            <hr />
-
-                            <div className='card-body-portfolio'>
-                                <img src={mern} alt={mern} />
-                            </div>
-                            <div className='card-link-portfolio'>
-                                <button className='btn-git'>
-                                    <a href="https://github.com/franlopezhack/Journal-app"
-                                        className='btn-git-a' target="_blank" rel="noreferrer"
-                                        style={{ textDecoration: 'none', color: 'white' }}>
-                                        Repo GitHub
-                                    </a>
-                                </button>
-                                <button className='btn-git'>
-                                    <a href="https://journal-fran.netlify.app/"
-                                        className='btn-git-a' target="_blank" rel="noreferrer"
-                                        style={{ textDecoration: 'none', color: 'white' }}>
-                                        Link
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='card_div'>
-                        <p>BIKE LOCKER</p>
-                        <div className='card'>
-                            <div className='img-card'>
-                                <img src={bike_locker} alt={bike_locker} />
-                            </div>
-
-                            <hr />
-
-                            <div className='card-body'>
-                                <img src={mern} alt={mern} />
-                                <img src={postman} alt={postman} />
-                                <img id='bs' src={bootstrap} alt={bootstrap} />
-                            </div>
-                            <div className='card-link'>
-                                <button className='btn-git'>
-                                    <a href="https://github.com/franlopezhack/SHOP-BIKES" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
-                                </button>
-                                <button className='btn-git'>
-                                    <a href="https://iron-bike-shop.herokuapp.com/" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Link</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='card_div'>
-                        <p> RALLYE DE PONTEVEDRA</p>
-                        <div className='card'>
-                            <div className='img-card'>
-                                <img src={rallye} alt={rallye} />
-                            </div>
-
-                            <hr />
-
-                            <div className='card-body'>
-                                <img src={mern} alt={mern} />
-                                <img src={postman} alt={postman} />
-                                <img id='bs' src={bootstrap} alt={bootstrap} />
-                            </div>
-                            <div className='card-link'>
-                                <button className='btn-git'>
-                                    <a href="https://github.com/franlopezhack/rallye-pontevedra" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
-                                </button>
-                                <button className='btn-git'>
-                                    <a href="https://www.rallyedepontevedra.com/" target="_blank" rel="noreferrer" className='btn-git-a' style={{ textDecoration: 'none', color: 'white' }}>Link</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='card_div'>
-                        <p> JOURNAL APP</p>
-                        <div className='card'>
-                            <div className='img-card'>
-                                <img src={jorunal} alt={jorunal} />
-                            </div>
-
-                            <hr />
-
-                            <div className='card-body'>
-                                {/* <img src={jest} alt={jest} />
-                                <img src={postman} alt={postman} />
-                                <img id='bs' src={bootstrap} alt={bootstrap} /> */}
-                            </div>
-                            <div className='card-link'>
-                                <button className='btn-git'>
-                                    <a href="https://github.com/franlopezhack/rallye-pontevedra" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
-                                </button>
-                                <button className='btn-git'>
-                                    <a href="https://www.rallyedepontevedra.com/" target="_blank" rel="noreferrer" className='btn-git-a' style={{ textDecoration: 'none', color: 'white' }}>Link</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
+                <div className='div-parrafo-proyectos'>
+                    <p className='parrafo-proyectos'>Todos estos proyectos ha sido creado durante la formación que he realizado en los Bootcamps
+                        de desarrollo Web y en curos realizado de manera autodidacta en la plataforma Udemy.
+                    </p>
                 </div>
+
+                <section className='section'>
+
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/rallye-Pontevedra-2023' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={rallye2022} alt="" />
+                        </div>
+                        <h1 className='h1-proyects'>Rallye de Pontevedra</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado
+                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
+                                esta creada con React
+                            </p>
+                        </div>
+                    </Link>
+
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/SHOP-BIKES' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={bikeLocker} alt="" />
+                        </div>
+                        <h1 className='h1-proyects'>Bike Locker</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>Es una web basada en una tienda de bicicletas.Se trata de un proyecto realizado
+                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
+                                esta creada con React que consume la API.
+                            </p>
+                        </div>
+                    </Link>
+
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/hackadex' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={hackedex} alt="" />
+                        </div>
+                        <h1 className='h1-proyects'>Hackadex</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>Este es uno de los proyectos que he realizado durante
+                                el bootcamp en HACK A BOSS, Se trata de una Pokedex en la que se pueden encontrar todos los los Pokemon existentes con un filtro de búsqueda realizando la consulta a la API de Pokemon.
+                                Para este proyecto hemos utilizado tecnologías como JS, HTML y CSS.
+                            </p>
+                        </div>
+                    </Link>
+
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/CYBER-SPACE' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={cyber} alt="" />
+                        </div>
+                        <h1 className='h1-proyects'>Cyber - Space</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'> Juego realizado con JavaScript, CSS y HTML
+                            </p>
+                        </div>
+                    </Link>
+
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/Postit-News' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={postit} alt="" />
+                        </div>
+                        <hr />
+                        <h1 className='h1-proyects'>PistIt - News</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado
+                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
+                                esta creada con React
+                            </p>
+                        </div>
+                    </Link>
+
+                    {/* <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/portfolio-2023' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={rallye2022} alt="" />
+                        </div>
+                        <h1 className='h1-proyects'>Rallye de Pontevedra</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado
+                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
+                                esta creada con React
+                            </p>
+                        </div>
+                    </Link> */}
+
+
+
+                    {/* <div className='div'>
+                        <img className='img-div' src={img} alt="" />
+                    </div> */}
+
+                </section>
             </div>
 
         </>

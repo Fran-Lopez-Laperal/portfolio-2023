@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700;800;900&family=Open+Sans:wght@300&family=Roboto&family=Titillium+Web:wght@300&family=Work+Sans&display=swap');
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700;800;900&family=Open+Sans:wght@300&family=Roboto&family=Sono&family=Titillium+Web:wght@300&family=Work+Sans:ital,wght@0,600;1,500&display=swap');
 
 body {
-    font-family:'Roboto', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight:normal;
     background-image:
     radial-gradient(rgb(3, 189, 154) 3px, rgb(91, 91, 91) 1px),
     radial-gradient(rgb(3, 189, 154) 3px, rgb(91, 91, 91) 1px);
