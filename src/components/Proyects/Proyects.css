@@ -164,9 +164,11 @@
 }
 
 .container-img-proyects > .img-proyects{
-    width: 100%;
+   
+    width: 197px;
     object-fit: contain;
-    height: 350px;
+    height:300px;
+    margin-top: 220px;
 }
 
 .parrafo-proyectos{
