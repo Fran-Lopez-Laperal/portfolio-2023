@@ -21,7 +21,10 @@ function Proyects() {
                 </div> */}
 
                 <section className='section'>
-                <h3 className='title-proyect'>PostIt - News</h3>
+                <div>
+                    
+                </div>
+                <p style={{fontSize:'15px'}} className='title-proyect letters-head-section'>PostIt - News</p>
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/Postit-News' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={postit} alt="" />
@@ -34,7 +37,7 @@ function Proyects() {
                         </div>
                     </Link>
 
-                <h3 className='title-proyect'>Hackedex</h3>
+                <p style={{fontSize:'15px'}} className='title-proyect letters-head-section'>Hackedex</p>
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/hackadex' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={hackedex} alt="" />
@@ -47,7 +50,7 @@ function Proyects() {
                             </p>
                         </div>
                     </Link>
-                    <h3 className='title-proyect'>Rallye de pontevedra</h3>
+                    <p style={{fontSize:'15px'}} className='title-proyect letters-head-section'>Rallye de pontevedra</p>
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/rallye-Pontevedra-2023' style={{ textDecoration: 'none' }}>
 
                         <div className='container-img-proyects'>
@@ -61,7 +64,7 @@ function Proyects() {
                             </p>
                         </div>
                     </Link>
-                    <h3 className='title-proyect'>Bike Locker</h3>
+                    <p style={{fontSize:'15px'}} className='title-proyect letters-head-section'>Bike Locker</p>
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/SHOP-BIKES' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={bikeLocker} alt="" />
@@ -75,7 +78,7 @@ function Proyects() {
                         </div>
                     </Link>
                 
-                    <h3 className='title-proyect'>Cyber - Space</h3>
+                    <p style={{fontSize:'15px'}} className='title-proyect letters-head-section'>Cyber - Space</p>
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/CYBER-SPACE' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={cyber} alt="" />

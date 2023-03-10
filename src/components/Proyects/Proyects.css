@@ -15,7 +15,7 @@
 
 @media(max-width:1024px){
     .section{
-        margin-top: -100px;
+        top: 50px;
         flex-direction: column;
         align-items: center;
         width: auto;      
@@ -37,14 +37,18 @@
     }
 
     .container-img-proyects > .img-proyects {
-        margin: -100px auto auto auto !important;
+        width: 200px !important;
+        max-width: 100%;
+        object-fit: cover;
+        margin-top: 0px !important;
+        height: 100% !important;
  
     }
 
 
     .figure{
         width: 200px !important;
-        margin: 5px;
+        margin: 5px auto auto auto;
     }
 
     .figure:hover > .container-info-proyect{
