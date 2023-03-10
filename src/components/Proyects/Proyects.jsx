@@ -14,11 +14,11 @@ function Proyects() {
         <>
             <div className="proyects" id="proyects">
                 <p className='letters-head-section'>Proyectos</p>
-                <div className='div-parrafo-proyectos'>
+                {/* <div className='div-parrafo-proyectos'>
                     <p className='parrafo-proyectos'>Todos estos proyectos ha sido creado durante la formación que he realizado en los Bootcamps
                         de desarrollo Web y en curos realizado de manera autodidacta en la plataforma Udemy.
                     </p>
-                </div>
+                </div> */}
 
                 <section className='section'>
 
@@ -76,7 +76,7 @@ function Proyects() {
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={postit} alt="" />
                         </div>
-                        <hr />
+                        
                         <h1 className='h1-proyects'>PistIt - News</h1>
                         <div className='container-info-proyect' id='container-info-proyect'>
                             <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado

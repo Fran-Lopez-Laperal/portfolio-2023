@@ -5,7 +5,7 @@
 }
 .section{
     position: relative;
-    top:150px;
+    top:110px;
     display: flex;
     margin: auto;
     width: 1000px;
@@ -23,7 +23,7 @@
     }
     .section  .figure:hover {
         transform: none !important;
-        height: 210px !important;
+        height: 220px !important;
         transition: none !important;  
         border-radius: 0px !important;
     }
@@ -37,14 +37,14 @@
     }
 
     .container-img-proyects > .img-proyects {
-        height: 100% !important;
-        margin: auto !important;
+        margin: -100px auto auto auto !important;
+ 
     }
 
 
     .figure{
         width: 200px !important;
-      margin: 5px;
+        margin: 5px;
     }
 
     .figure:hover > .container-info-proyect{
@@ -71,14 +71,15 @@
 
 .figure  {
     width: 0px;
-    height: 220px;
-    background-color:  transparent;
+    height: 320px;
+    background-color:  rgb(91, 91, 91);
     border: 1px solid black;
     box-shadow: 1px  1px 4px black;
     /* display: flex;
     align-items: end; */
     flex-grow: 1;
     transition: .4s ease;
+
     overflow: hidden;
 }
 
@@ -165,9 +166,7 @@
 .container-img-proyects > .img-proyects{
     width: 100%;
     object-fit: contain;
-    margin-top: -40px;
-    height: 300px;
-;
+    height: 350px;
 }
 
 .parrafo-proyectos{
