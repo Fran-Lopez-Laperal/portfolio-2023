@@ -21,33 +21,20 @@ function Proyects() {
                 </div> */}
 
                 <section className='section'>
-
-                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/rallye-Pontevedra-2023' style={{ textDecoration: 'none' }}>
+                <h3 className='title-proyect'>PostIt - News</h3>
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/Postit-News' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
-                            <img className='img-proyects' id='img-proyects' src={rallye2022} alt="" />
+                            <img className='img-proyects' id='img-proyects' src={postit} alt="" />
                         </div>
-                        <h1 className='h1-proyects'>Rallye de Pontevedra</h1>
+                        <h1 className='h1-proyects'>PostIt - News</h1>
                         <div className='container-info-proyect' id='container-info-proyect'>
-                            <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado
-                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
-                                esta creada con React
+                            <p className='info-proyect'>El proyecto se trata de una API de noticias realizada con Node.js, Express y MySQL.
+
                             </p>
                         </div>
                     </Link>
 
-                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/SHOP-BIKES' style={{ textDecoration: 'none' }}>
-                        <div className='container-img-proyects'>
-                            <img className='img-proyects' id='img-proyects' src={bikeLocker} alt="" />
-                        </div>
-                        <h1 className='h1-proyects'>Bike Locker</h1>
-                        <div className='container-info-proyect' id='container-info-proyect'>
-                            <p className='info-proyect'>Es una web basada en una tienda de bicicletas.Se trata de un proyecto realizado
-                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
-                                esta creada con React que consume la API.
-                            </p>
-                        </div>
-                    </Link>
-
+                <h3 className='title-proyect'>Hackedex</h3>
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/hackadex' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={hackedex} alt="" />
@@ -60,7 +47,35 @@ function Proyects() {
                             </p>
                         </div>
                     </Link>
+                    <h3 className='title-proyect'>Rallye de pontevedra</h3>
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/rallye-Pontevedra-2023' style={{ textDecoration: 'none' }}>
 
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={rallye2022} alt="" />
+                        </div>
+                        <h1 className='h1-proyects'>Rallye de Pontevedra</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado
+                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
+                                esta creada con React
+                            </p>
+                        </div>
+                    </Link>
+                    <h3 className='title-proyect'>Bike Locker</h3>
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/SHOP-BIKES' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={bikeLocker} alt="" />
+                        </div>
+                        <h1 className='h1-proyects'>Bike Locker</h1>
+                        <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>Es una web basada en una tienda de bicicletas.Se trata de un proyecto realizado
+                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
+                                esta creada con React que consume la API.
+                            </p>
+                        </div>
+                    </Link>
+                
+                    <h3 className='title-proyect'>Cyber - Space</h3>
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/CYBER-SPACE' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={cyber} alt="" />
@@ -71,20 +86,7 @@ function Proyects() {
                             </p>
                         </div>
                     </Link>
-
-                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/Postit-News' style={{ textDecoration: 'none' }}>
-                        <div className='container-img-proyects'>
-                            <img className='img-proyects' id='img-proyects' src={postit} alt="" />
-                        </div>
-                        
-                        <h1 className='h1-proyects'>PistIt - News</h1>
-                        <div className='container-info-proyect' id='container-info-proyect'>
-                            <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado
-                                con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
-                                esta creada con React
-                            </p>
-                        </div>
-                    </Link>
+                   
 
                     {/* <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/portfolio-2023' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>

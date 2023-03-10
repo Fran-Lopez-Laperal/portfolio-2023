@@ -5,7 +5,7 @@
 }
 .section{
     position: relative;
-    top:110px;
+    top:100px;
     display: flex;
     margin: auto;
     width: 1000px;
@@ -66,12 +66,15 @@
         box-shadow: 0px 0px 4px black;
     } 
 
+   .section  .title-proyect{
+        display:contents;
+    }
 
 }
 
 .figure  {
     width: 0px;
-    height: 320px;
+    height: 220px;
     background-color:  rgb(91, 91, 91);
     border: 1px solid black;
     box-shadow: 1px  1px 4px black;
@@ -159,16 +162,21 @@
     
 }
 
+.title-proyect{
+    display: none;
+}
+
+
+
 .figure:hover > h1{
     display: block;
 }
 
 .container-img-proyects > .img-proyects{
-   
-    width: 197px;
+    width: 100%;
     object-fit: contain;
-    height:300px;
-    margin-top: 220px;
+    margin-top: -40px;
+    height: 300px;
 }
 
 .parrafo-proyectos{
