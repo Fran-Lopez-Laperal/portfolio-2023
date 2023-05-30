@@ -10,6 +10,8 @@ import postit from '../../assets/images/postit.png'
 
 function Proyects() {
 
+   
+
     return (
         <>
             <div className="proyects" id="proyects">
