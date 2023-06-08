@@ -30,6 +30,25 @@
     width: 860px;
 }
 
+.container-form{
+  height: 100%;
+}
+
+.send-message{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.send-message > h1{
+  font-size: 42px;
+  text-decoration: underline white;
+  color:rgb(3, 189, 154);
+  text-shadow: rgb(10 207 151) 0px 0px 5px;
+}
+
 @media(max-width:1024px){
     .form-container{
         display: flex;
@@ -96,6 +115,7 @@
     margin-top: 5px !important;
     width: 100% !important;
     height: 25px !important;
+  
   }
 }
 
@@ -163,6 +183,7 @@
     margin-top: 20px;
     outline: none;
     width: 120px;
+    cursor: pointer;
 }
 
 
