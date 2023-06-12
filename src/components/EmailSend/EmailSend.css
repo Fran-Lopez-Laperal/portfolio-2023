@@ -51,10 +51,10 @@
 
 @media(max-width:1024px){
     .form-container{
-        display: flex;
         flex-direction: column;
-        height: 700px;
-        width: 300px;
+        align-items: center;
+        height: auto;
+        width: 400px;
     }
 }
 

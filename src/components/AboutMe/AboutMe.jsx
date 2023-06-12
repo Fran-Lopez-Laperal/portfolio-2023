@@ -1,5 +1,4 @@
 import './AboutMe.css'
-import bike from '../../assets/images/bike.jpeg'
 
 
 
@@ -10,92 +9,34 @@ function AboutMe() {
     return (
         <div className='about-me'>
             <p className='letters-head-section'>Sobre mí</p>
-            <section className='section-about-me'>
-
-                <div id='card-about-me1' className='card-about-me'>
-                    <h2 className='letters-about-section'>Quien soy?</h2>
-                    <div className='list-container'>
-                        <p><span style={{ color: 'white' }}>Junior </span> Full Stack MERN</p>
-                    </div>
-                    <div className='letters-about-section-text'>
-                        <p> Apasionado por:</p>
-                        <p><span>👨🏻‍💻</span> La programación,</p>
-                        <p><span>⚙️</span>La tecnologia, </p>
-                        <p><span>🏔️</span>El deporte al aire libre!</p>
-
-                    </div>
-                </div>
-
-
-
-                <div id='card-about-me2' className='card-about-me'>
-                    <h2 className='letters-about-section'>Mi formación</h2>
-                    <div className='list-container'>
-                        <ul className='list-skill'>
-                            <li> <span>💻</span> -WEB DEVEOPMENT BOOTCAMP MERN</li>
-                            <li className='skill-sport'> <span>🤸🏼‍♂️</span>- CS ACTIVIDADES FÍSICAS Y DEPORTIVAS</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div className='container-card'>
-                    <img src={bike} alt={bike} />
-                    <div id='card-about-me3' className='card-about-me'>
-                        <h2 className='letters-about-section'>Mis hobbies</h2>
-                        <div className='list-container'>
-                            <ul className='list-hobbies'>
-                                <li > <span>🚵🏼</span> - CICLISMO</li>
-                                <li > <span>🎣</span> - PESCA DEPORTIVA</li>
-                                <li> <span>✈️</span> - VIAJAR</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section className='section-me'>
                 <div className='container-section-me'>
-                    <p className='section-me-text' style={{ marginTop: '50px' }}>
-                        Mi nombre es Francisco López y soy Desarrollador Junior Full Stack.
-                        Soy de Sanxenxo, Pontevedra un precioso pueblo situado en las Rias Baixas.
+                    <p className='section-me-text'>
+                        Mi nombre es Francisco José López Laperal, soy de Sanxenxo y Desarrollador Junior Full Stack.
+                        Mi formación hasta ahora se ha centrado en el ámbito de la actividad física y el deporte,
+                        pero he decidido cambiar de rumbo y adentrarme en el mundo del Desarrollo Web. Me he formado
+                        en diversas tecnologías a través de un Bootcamp y cursos basados en las tecnologías que he
+                        aprendido así como otras que creo son muy interesantes para mi desarrollo.
                     </p>
                     <p className='section-me-text'>
-                        En Octubre de 2021 comencé el Bootcamp en Ironhack tras tomar la decisión de querer dar un giro a mi vida profesional.
-                        Mi formación hasta el momento ha estado enfocada en la Actividad Física y el Deporte, pero desde bien pequeño me ha gustado
-                        la tecnología y he tenido curiosidad por mantenerme actualizado en este mundo digital que no para de cambiar.
+                        Durante mi formación, fui expuesto a proyectos intensivos y colaborativos que me permitieron
+                        desarrollar una comprensión profunda de las mejores prácticas de programación y una experiencia
+                        práctica en el desarrollo de aplicaciones web utilizando JavaScript y el framework React.
+                        A través de estos proyectos, aprendí a construir interfaces de usuario interactivas, gestionar
+                        el estado de la aplicación y trabajar con API para crear experiencias de usuario fluidas y
+                        eficientes.
                     </p>
                     <p className='section-me-text'>
-                        Soy una persona pro activa, enérgica, apasionada con todo lo que hago y me encanta trabajar en equipo.
-                        Al mismo tiempo que estoy en la búsqueda de esa oportunidad que me permita seguir creciendo como desarrollador,
-                        continúo mi formación realizando cursos basados en las tecnologías que he aprendido durante el Bootcamp así como otras que
-                        creo son muy interesantes para mi desarrollo.
+                        Mi pasión por la programación se ha convertido en un motor que impulsa mi constante aprendizaje
+                        y mejora. Estoy emocionado de aplicar mis habilidades técnicas y mi capacidad para resolver
+                        problemas en un entorno laboral real. Me enorgullece trabajar en equipo y disfruto
+                        contribuyendo con ideas y soluciones creativas para superar desafíos complejos.
                     </p>
-
-
-
-                    <section className='section-me-check'>
-                        <p>
-                            <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
-                            Desarrollo de una aplicación Full Stack MERN
-                        </p>
-                        <p>
-                            <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
-                            Desarrollo Front End con React.
-                        </p>
-                        <p>
-                            <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
-                            Desarrollo y consumo de API´S
-                        </p>
-
-                    </section>
-
-
-                    <p className='section-me-text' style={{ marginBottom: '50px' }}>
-                        Como Junior aprecio mucho la cercanía con los demás integrantes del equipo para así poder aprender con mayor facilidad y agilidad,
-                        por lo que valoro cualquier modalidad de jornada.
-
-                        Busco hacerme un hueco en este sector y conseguir los objetivos que son importantes para mi tanto personal como profesionalmente.
-
+                    <p className='section-me-text'>
+                        Además de mis habilidades técnicas, he desarrollado una mentalidad de crecimiento y una
+                         habilidad para adaptarme rápidamente a nuevas tecnologías y entornos de trabajo. Dentro
+                          de mi balanza personal siempre tendrá más peso el poder seguir aprendiendo de forma continua
+                           y enfrentarme a nuevos desafíos para crecer profesionalmente.
                     </p>
                 </div>
 

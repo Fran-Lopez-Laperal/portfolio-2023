@@ -1,0 +1,75 @@
+.training{
+}
+
+
+
+.training-menu{
+    border-radius: 10px;
+    box-shadow: 1px 1px 14px black;
+    background-color: rgb(124, 124, 124);
+    width: auto;
+    margin: 30px;
+}
+
+.training-menu > ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+.training-menu-li{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.training-menu-li-button{
+    border: none;
+    height: 100%;
+    color:rgb(3, 189, 154);
+    text-shadow: rgb(10 207 151) 0px 0px 0px;
+    background-color:transparent;
+    cursor: pointer;
+    padding: 5px;
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.training-menu-li-button:hover{
+    background-color: rgb(3, 189, 154);
+    color: white;
+}
+
+.info-training{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info-training-article {
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .info-training-article-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .info-training-article img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+
+  }

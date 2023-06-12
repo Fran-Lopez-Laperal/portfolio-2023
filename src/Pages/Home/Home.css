@@ -61,7 +61,7 @@
 
 
 .btn-home-cv{
-    background: none;
+    background: rgb(91, 91, 91);
     border-radius: 30px;
     border: 1px solid rgb(3, 189, 154) ;
     color: rgb(3, 189, 154);
@@ -70,6 +70,14 @@
     outline: none;
     cursor: pointer;
     width: 150px;
+}
+
+.btn-home-cv:hover{
+    background-color: rgb(3, 189, 154) ;
+}
+
+.btn-home-cv:hover a{
+    color: white;
 }
 
 
@@ -89,11 +97,29 @@
     color:rgb(3, 189, 154) ;
     text-decoration: none;
 }
+/* 
+.btn-home-cv a{
+    color:rgb(3, 189, 154) ;
+    text-decoration: none;
+} */
 
 /*este efecto actice sirve para hacer el efecto de pulsar boton*/
 .btn-home:active{
    transform: translateY(10px);
    box-shadow: 0px 0px 0px rgb(3, 189, 154);
+}
+
+.btn-home:active:hover{
+    transform: translateY(10px);
+    box-shadow:white;
+ }
+
+.btn-home:hover{
+    background-color: rgb(1, 147, 120);
+}
+
+.btn-home:hover a{
+color: white;
 }
 
 .links-home{
@@ -115,6 +141,8 @@
     height: 50px;
 }
 
+
+
 .btn-media-1 img{
     width: 60px;
     height: 40px;
@@ -122,10 +150,18 @@
 
 .btn-media-1 button {
     background-color:rgb(3, 189, 154) ;
-    border-radius: 55px;
+    border-radius: 50px;
     border: none;
     width: 60px;
     height: 60px;
+}
+
+.btn-media-1:hover > button {
+    background-color: rgb(1, 147, 120);
+}
+
+.btn-media:hover > button {
+    background-color: rgb(1, 147, 120);
 }
 
 .btn-media button {

@@ -18,11 +18,12 @@ function NavBar() {
                             <Link  className='fa fa-user' to='about-me' ></Link>
                         </div>
                         <div className='inner'>
-                            <Link className="fa fa-laptop" aria-hidden="true" to='hard-skills'></Link>
+                            <Link  className="fa fa-code-fork" aria-hidden="true" to='training'></Link>
                         </div>
                         <div className='inner'>
-                            <Link  className="fa fa-code-fork" aria-hidden="true" to=''></Link>
+                            <Link className="fa fa-laptop" aria-hidden="true" to='hard-skills'></Link>
                         </div>
+                        
                         <div className='inner'>
                             <Link className="fa fa-briefcase" aria-hidden="true" to='proyects'></Link>
                         </div>

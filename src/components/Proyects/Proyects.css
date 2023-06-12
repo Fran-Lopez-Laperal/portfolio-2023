@@ -1,6 +1,7 @@
 
 .proyects{
     min-height: 100vh;
+    padding: 5rem;
     
 }
 .section{
@@ -8,189 +9,81 @@
     top:100px;
     display: flex;
     margin: auto;
-    width: 1000px;
-  
-}
-
-
-@media(max-width:1024px){
-    .section{
-        top: 50px;
-        flex-direction: column;
-        align-items: center;
-        width: auto;      
-        height:600px;
-    }
-    .section  .figure:hover {
-        transform: none !important;
-        height: 220px !important;
-        transition: none !important;  
-        border-radius: 0px !important;
-    }
-
-    .div-parrafo-proyectos{
-        width: 270px !important;
-        margin: auto !important;
-    }
-    .parrafo-proyectos{
-        font-size: 15px !important;
-    }
-
-    .container-img-proyects > .img-proyects {
-        width: 200px !important;
-        max-width: 100%;
-        object-fit: cover;
-        margin-top: 0px !important;
-        height: 100% !important;
- 
-    }
-
-
-    .figure{
-        width: 200px !important;
-        margin: 5px auto auto auto;
-    }
-
-    .figure:hover > .container-info-proyect{
-        display: none !important;;
-    }
-
-
-    .figure:hover > .h1-proyects{
-        display: none;
-    }
-
-    .figure:nth-last-child(-n + 1){
-        border-radius: 0px 0px 0px 0px !important;
-    }
-    
-    
-    .figure:nth-child(1){
-        border-radius: 0px 0px 0px 0px !important;
-        box-shadow: 0px 0px 4px black;
-    } 
-
-   .section  .title-proyect{
-        display:contents;
-    }
-
+    width: auto;
 }
 
 .figure  {
     width: 0px;
-    height: 220px;
+    height: auto;
     background-color:  rgb(91, 91, 91);
     border: 1px solid black;
     box-shadow: 1px  1px 4px black;
-    /* display: flex;
-    align-items: end; */
+    display: flex;
+    align-items: center;
     flex-grow: 1;
-    transition: .4s ease;
-
+    transition: .25s ease;
     overflow: hidden;
 }
 
-
-.figure .container-info-proyect{
-   display: none;
-}
-
-.figure:hover > .container-info-proyect{
-    text-align: center;
-    display: block;
-    max-width: 340px;
-    margin: auto;
-    height: 200px;
-}
-
- .info-proyect {
-    font-size: 13px;
-    color: black;
-}
-
-
-.section  .figure:hover {
+ .section  .figure:hover {
     background-color:   rgb(91, 91, 91);
-    width: 250px;
+    width: 50px;
     border-radius:10px;
     height: 470px;
     transform: scale(120%);
     z-index: 1;
+} 
+
+#figure{
+    height:470px ;
 }
-
-
-
-
-.div{
-    border: 1px solid;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-}
-
-
-
 
 .figure:nth-last-child(-n + 1){
     border-radius: 0px 10px 10px 0px;
 }
-
 
 .figure:nth-child(1){
     border-radius: 10px 0px 0px 10px;
     box-shadow: 0px 0px 4px black;
 } 
 
-
-
-.button-proyect{
-    background-color:  rgb(16, 106, 89);
-    position: absolute;
-    bottom: 40px;
-    left: 120px;
-    width: 80px;
-    height: 30px;
-    border-radius: 20px;
-    display: none;
-    
-}
-
-.h1-proyects{
-    display: none;
-    text-align: center;
-    text-decoration: underline;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    max-width: 100%;
-    color: rgb(3, 189, 154);
-    
-}
-
 .title-proyect{
     display: none;
 }
 
-
-
-.figure:hover > h1{
-    display: block;
+.container-img-proyects{
+    height: 100%;
+    width: 100%;
 }
 
 .container-img-proyects > .img-proyects{
     width: 100%;
-    object-fit: contain;
-    margin-top: -40px;
-    height: 300px;
+    object-fit: cover;
+    height: 100%;
+  
 }
 
-.parrafo-proyectos{
-    color: white;
-    font-size: 20px;
+.container-img-proyects:hover > .img-proyects{
+    filter: brightness( 70%);
+}
+
+.h1-proyects{
+    display: none;
+}
+
+.container-h1:hover{
+    display: block;
+    width: 100%;
+}
+
+.figure:hover >  h1{
+    filter: drop-shadow(rgb(28, 36, 35) 10px 5px 0.3rem);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+    bottom: 40px;
+    position: absolute;
+    width: 100%;
+    display:block;
+    color: white;
+    font-size: 25px;
 }
-.div-parrafo-proyectos{
-    width: 820px;
 
-}

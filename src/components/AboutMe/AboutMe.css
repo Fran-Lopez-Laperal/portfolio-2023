@@ -1,21 +1,5 @@
 .about-me{
-    min-height: 100vh;
-}
-
-
-
-
-@media(min-width:1024px){
-
-    .about-me{
-        width: 1400px;
-        margin: auto;
-    }
-
-    .section-about-me{
-        display: flex;
-        justify-content: space-around;
-    }
+    min-height: auto;
 }
 
 .section-me{
@@ -30,392 +14,38 @@
     width: auto;
 }
 
-.container-section-me{
-    margin: 17px;
-}
 
-@media(max-width:1024px){
+@media(min-width:1024px){
     .section-me{
         margin: auto;
-        width: 370px;
-        height: 800px;
+        width: 670px;
+        height:auto;
+        padding: 1rem;
     }
-}
 
-.section-me-check{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 0px 0px 10px;
-
-}
-
-
-
-.section-me-check p{
-    color: #121212;
-    line-height: 50px;
-}
-
-@media(max-width:1024px){
-    .section-me-check p{
-        line-height: 30px;
-        font-weight: 400px;
-   
-    }
-}
-
-.section-me-text{
-    color: #000000;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 2rem;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-align: justify;
-}
-
-@media(max-width:1024px){
     .section-me-text{
-       
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 1.3rem;
         margin-bottom: 10px;
-       
         text-align: justify;
     }
 }
 
 
-.letters-about-section{
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    font-weight:bold;
-    margin-bottom: 30px;
-    margin-left: 30px;
-}
+@media(max-width:490px){
+    .section-me{
+        width: auto;
+        padding: 1rem !important;
+    }
 
-.container-card{
-    background: gray;
-    border: 3px solid black;
-    border-radius: 5px;
-    height: 300px;
-    object-fit:contain;
-    width: 299px;
-    height: 408px;
-}
-
-.container-card img {
-    display: flex;
-    position: absolute;
-    width: 292px;
-    height: 400px;
-    object-fit:cover;
-}
-
-@media(max-width:1024px){
-    .container-card img {  
-        display: none;
-    }  
-}
-
-
-.btn-about-me button{
-    background: none;
-    border-radius: 30px;
-    border: 1px solid white ;
-    color: white;
-    height: 35px;
-    margin-left: 100px;
-    margin-top: 25px;
-    outline: none;
-    cursor: pointer;
-    width: 120px;
-}
-
-.btn-about-me button:hover{
-    background-color:  rgb(58, 164, 230);
-}
-
-.btn-about-me a {
-    color: wheat;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.card-about-me h2{
-    margin-top: 30px;
-}
-
-.letters-about-section-text{
-    font-size: 28px;
-    margin-bottom: -80px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-@media(max-width:1024px){
-    .letters-about-section-text p{
-        font-size: 18px ;
+    .about-me{
+      padding: 1rem;
     }
 }
 
-#btn-about-me button{
-    margin-top: 100px;
-}
-
-#btn-about-me button:hover{
-   background-color:  rgb(58, 164, 230);
-}
-
-@media(max-width:1024px){
-    #btn-about-me button{
-        margin-top: 80px;
-    }
-}
-.list-container{
-    display: flex;
-    font-size: 15px;
-    margin-left: 40px;
-}
 
 
 
-.letters-about-section-name{
-    color: rgb(16, 106, 89);
-    margin-top: 25px;
-    text-shadow: rgb(248, 250, 250) 0px 0px 10px;
-    font-size: 18px;
-    margin-bottom: 40px;
-}
-
-@media(max-width:1024px){
-    .list-container p{
-        font-size: 16px !important;
-        margin-top: -20px !important;
-    }
-}
-
-.list-container p{
-    display: block;
-    font-family: monospace;
-    font-size: 20px;
-    margin-left: -30px;
-    white-space:nowrap;
-    border-right: 4px solid;
-    width: 24ch;
-
-    animation:infinite typing 9s  steps(22), 
-blink .5s infinite step-end alternate ;
-     overflow:hidden;
-}
-
-@keyframes typing {
-    from {width: 0;}
-}
-
-@keyframes blink {
-    50% {border-color: transparent;}
-}
-
-
-#skill-dev{
-    margin-bottom: 20px;
-}
-
-.list-hobbies {
-    color: white;
-    font-size: 20px;
-    letter-spacing: 0px;
-    line-height: 50px;
-    list-style: none;
-    margin-left: -25px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}  
 
 
 
-@media(max-width:1024px){
-    .list-hobbies {
-        color: white;
-        font-size: 15px !important;
-        letter-spacing: 0px;
-        line-height: 20px;
-        list-style: none;
-        margin-left: -25px;
-        margin-bottom: 1px;
-        margin-top: 10px;
-    }  
-}
-
-.list-hobbies span {
-       font-size: 40px;
-} 
-
-@media(max-width:1024px){
-    .list-hobbies span {
-        font-size: 20px;  
-    }  
-}
-
-.list-skill li{
-    color: white;
-    font-size: 25px;
-    margin-left: -25px;
-    list-style: none;
-}
-
-.list-skill span{
-    font-size: 30px;
-}
- 
-.skill-sport span{
-    font-size: 40px;
-    margin-top: 10px;
-}
-
-@media(max-width:1024px){
-    .list-skill span{
-        font-size: 20px;
-       }   
-}
-
- @media(max-width:1024px){
-    .skill-sport span{
-        font-size: 35px;
-        margin-top: 40px;
-       }
-}
-
-@media(max-width:1024px){
-    .list-skill li{
-     color: white;
-     font-size: 10px;
-     margin-left: -25px;
-     list-style: none;
-    }
-}
-
-@media(max-width:1024px){
-   .btn-about-me button{
-    width: 10px;
-    height: 10px;
-   }
-}
-
-
-#card-about-me3{
-    background: rgb(61, 199, 148);
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px rgb(153, 246, 212);
-    height: 402px;
-    position: absolute;
-    margin-top: -0.5px;
-    width: 292px;
-    transition: all 1s;
-    transform: rotate(0deg);
-
-    transform-style:preserve-3d;
-}
-
-#card-about-me3:hover{
-    color: black;
-    box-shadow:  1px 1px 5px  rgb(3, 189, 154);
-    transform: rotateY(360deg);
-   
-}
-
-
-#card-about-me1{
-    background: rgb(61, 199, 148);
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px rgb(153, 246, 212);
-    height: 400px;
-    width: 290px;
-    /* transition: all 1s;
-    transform: rotateX(30deg);
-    transform-style:preserve-3d; */
-}
-
-
-
-#card-about-me2{
-    background: rgb(61, 199, 148);
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px rgb(153, 246, 212);
-    height: 400px;
-    width: 300px;
-    /* transition: all 1s;
-    transform: rotate(30deg); */
-}
-
-#card-about-me2:hover{
-    transform: rotateY(360deg);
-}
-
-
-
-@media(max-width:1024px){
-    .letters-about-section{
-        font-size: 25px;
-    }
-}
-
-@media(max-width:1024px){
-    .section-about-me  {
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-        justify-content: center;
-    }
-}
-
-@media(max-width:1024px){
-    #card-about-me1{ 
-        height: 270px;
-        margin-left: 20%;
-        width: 230px
-    }
-}
-
-@media(max-width:1024px){
-    #card-about-me1 h2{
-        font-size: 30px;
-    }
-}
-
-@media(max-width:1024px){
-    #card-about-me2{
-        height: 270px;
-        margin-left: 20%;
-        margin-top: 20px;
-        width: 230px;      
-    }
-}
-@media(max-width:1024px){
-    #card-about-me3{
-        height: 270px;
-        margin-left: 20%;
-        margin-top: 20px;
-        width: 230px;
-    }
-}
-
-@media(max-width:1024px){
-    .btn-about-me button{
-        height: 30px;
-        margin-left: 40px;
-        width: 80px;
-    }
-}
-
-@media(max-width:1024px){
-    .container-card{
-        background: none;
-        border:none;
-        border-radius: none;
-        height: none;
-        width: none;
-    }
-}
