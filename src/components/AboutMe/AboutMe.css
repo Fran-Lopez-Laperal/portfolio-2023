@@ -1,5 +1,13 @@
 .about-me{
     min-height: auto;
+  
+    
+}
+
+.container-me{
+    width: 100%;
+    display: flex;
+   justify-content: center;
 }
 
 .section-me{
@@ -7,9 +15,9 @@
     box-shadow: 1px 1px 14px black;
     border-radius: 20px;
     display:flex;
-    flex-direction: column;
     justify-content: center;
     width: auto;
+    margin: 10px;
 }
 
 .section-me-text{
@@ -19,16 +27,27 @@
 
 @media(min-width:1024px){
     .section-me{
-        margin: auto;
-        width: 670px;
+        margin: 10px;
+        width: auto;
         height:780px;
         padding: 2rem;
+        max-width: 900px;
     }
 
     .section-me-text{
         font-size: 1.1rem;
         line-height: 1.5rem;
         text-align: justify;
+    }
+}
+
+@media(max-width:1024px){
+
+    .section-me{
+        margin: 10px;
+        width: auto;
+        height:780px;
+        padding: 2rem;
     }
 }
 

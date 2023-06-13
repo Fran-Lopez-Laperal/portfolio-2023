@@ -46,8 +46,6 @@ function EmailSend() {
                 setSendMessage(true)
             } else {
                 console.error("Error al obtener los datos");
-
-
             }
 
         } catch (tryError) {
@@ -65,17 +63,14 @@ function EmailSend() {
 
 
     function handleName(e) {
-        console.log(e.target.value)
         setName(e.target.value)
     }
 
     function handleMail(e) {
-        console.log(e.target.value)
         setMail(e.target.value)
     }
 
     function handleMessage(e) {
-        console.log(e.target.value)
         setMessage(e.target.value)
     }
 
