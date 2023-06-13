@@ -49,29 +49,7 @@
   text-shadow: rgb(10 207 151) 0px 0px 5px;
 }
 
-@media(max-width:1024px){
-    .form-container{
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        width: 400px;
-    }
-}
 
-@media(max-width:1024px){
-    .info-h1{
-        font-size: 20px;
-    }
-}
-
-@media(max-width:1024px){
-    .info-container{
-        margin-top: -10px;
-    }
-}
-@media(max-width:1024px){
-    
-}
 
 
 .info-h1{
@@ -96,28 +74,8 @@
 }
 
 
-@media(max-width:1024px){
-    .form input{
-    width: 250px !important;
-     
-    }
-}
 
-@media(max-width:1024px){
-    .form-text textarea{
-    width: 250px !important;
 
-    }
-}
-
-@media(max-width:1024px){
-  .email-send button {
-    margin-top: 5px !important;
-    width: 100% !important;
-    height: 25px !important;
-  
-  }
-}
 
 .form input{
     background: rgb(91, 91, 91);
@@ -186,36 +144,59 @@
     cursor: pointer;
 }
 
-
-
 @media(max-width:1024px){
+  .form input{
+  width: 250px !important;
+   
+  }
+
+  .form-text textarea{
+    width: 250px !important;
+
+    }
+
+    .email-send button {
+      margin-top: 5px !important;
+      width: 100% !important;
+      height: 25px !important;
+    
+    }
+
     .email{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        min-height: 85vh;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      min-height: 85vh;
     }
-}
-@media(max-width:1024px){
     .email-text{
-        font-size: 15px;
-        margin-top: 10px;
-        width: 300px;
+      font-size: 15px;
+      margin-top: 10px;
+      width: 300px;
     }
-}
-@media(max-width:1024px){
-    .form-message{
-        margin-bottom: 20px;
-    }
-}
-@media(max-width:1024px){
-    .email-btn{
-        margin-bottom: 130px;
-    }
-}
-@media(max-width:1024px){
 
+    .form-message{
+      margin-bottom: 20px;
+    }
+
+    .email-btn{
+      margin-bottom: 130px;
+    }
+    .form-container{
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      width: 400px;
+  }
+
+  .info-h1{
+    font-size: 20px;
 }
+
+.info-container{
+  margin-top: -10px;
+}
+}
+
 
 .send-message-h1 {
     margin-top: 25px;
