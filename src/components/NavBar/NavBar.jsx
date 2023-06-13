@@ -17,9 +17,9 @@ function NavBar() {
                         <div className='inner'>
                             <Link  className='fa fa-user' to='about-me' ></Link>
                         </div>
-                        <div className='inner'>
+                        {/* <div className='inner'>
                             <Link  className="fa fa-code-fork" aria-hidden="true" to='training'></Link>
-                        </div>
+                        </div> */}
                         <div className='inner'>
                             <Link className="fa fa-laptop" aria-hidden="true" to='hard-skills'></Link>
                         </div>
