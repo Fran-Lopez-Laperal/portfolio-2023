@@ -82,11 +82,11 @@ function Home() {
                         style={{ overflowY: 'scroll', scrollBehavior: 'smooth' }}
                     />
                 </div>
-                <div>
+                {/* <div>
                     <Training
                         style={{ overflowY: 'scroll', scrollBehavior: 'smooth' }}
                     />
-                </div>
+                </div> */}
 
                 <div>
                     <Proyects

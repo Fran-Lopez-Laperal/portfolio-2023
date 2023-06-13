@@ -9,9 +9,11 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     width: auto;
+}
+
+.section-me-text{
+    margin: 20px;
 }
 
 
@@ -19,14 +21,13 @@
     .section-me{
         margin: auto;
         width: 670px;
-        height:auto;
-        padding: 1rem;
+        height:780px;
+        padding: 2rem;
     }
 
     .section-me-text{
-        font-size: 1rem;
-        line-height: 1.3rem;
-        margin-bottom: 10px;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
         text-align: justify;
     }
 }
@@ -41,6 +42,7 @@
     .about-me{
       padding: 1rem;
     }
+
 }
 
 

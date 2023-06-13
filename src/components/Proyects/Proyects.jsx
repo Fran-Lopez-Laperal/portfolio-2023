@@ -1,11 +1,11 @@
 
 import { Link } from 'react-router-dom'
 import './Proyects.css'
-import rallye2022 from '../../assets/images/placa.png'
+import rallye2023 from '../../assets/images/rallye.png'
 import bikeLocker from '../../assets/images/bike-locker.png'
 import hackedex from '../../assets/images/Hackedex.png'
 import cyber from '../../assets/images/Cyber Space.png'
-import postit from '../../assets/images/postit.png'
+import postit from '../../assets/images/Proyecto Bootcamp.png'
 
 
 function Proyects() {
@@ -22,15 +22,15 @@ function Proyects() {
                     </p>
                 </div> */}
 
-                <section className='section'>
+                <section className='section-proyects'>
                  
-                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/Postit-News' style={{ textDecoration: 'none' }}>
+                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/Front-Postit-News' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
                             <img className='img-proyects' id='img-proyects' src={postit} alt="" />
                         </div>
-                        <div className='container-h1'>
+                       
                             <h1 className='h1-proyects'>PostIt - News</h1>
-                        </div>
+                   
 
                         {/*  <div className='container-info-proyect' id='container-info-proyect'>
                             <p className='info-proyect'>El proyecto se trata de una API de noticias realizada con Node.js, Express y MySQL.
@@ -51,12 +51,12 @@ function Proyects() {
                             </p>
                         </div> */}
                     </Link>
-                    <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/rallye-Pontevedra-2023' style={{ textDecoration: 'none' }}>
+                    <Link className="figure" id='figure' to='https://www.rallyedepontevedra.com/' style={{ textDecoration: 'none' }}>
 
                         <div className='container-img-proyects'>
-                            <img className='img-proyects' id='img-proyects' src={rallye2022} alt="" />
+                            <img className='img-proyects' id='img-proyects' src={rallye2023} alt="" />
                         </div>
-                        <h1 className='h1-proyects'>Rallye de Pontevedra</h1>
+                        <h1 className='h1-proyects'>Rallye de Pontevedra 2023</h1>
                         {/*  <div className='container-info-proyect' id='container-info-proyect'>
                             <p className='info-proyect'>Web infomativa para el Rallye de Pontevedra 2023. Se trata de un proyecto realizado
                                 con el stack MERN, consume un API de noticias creada con Node y Express. La parte front
@@ -87,6 +87,7 @@ function Proyects() {
                             </p>
                         </div> */}
                     </Link>
+
 
 
                     {/* <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/portfolio-2023' style={{ textDecoration: 'none' }}>

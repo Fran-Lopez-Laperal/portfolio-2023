@@ -1,15 +1,16 @@
 
 .proyects{
     min-height: 100vh;
-    padding: 5rem;
     
 }
-.section{
+
+.section-proyects{
     position: relative;
     top:100px;
     display: flex;
     margin: auto;
-    width: auto;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .figure  {
@@ -25,7 +26,7 @@
     overflow: hidden;
 }
 
- .section  .figure:hover {
+ .section-proyects  .figure:hover {
     background-color:   rgb(91, 91, 91);
     width: 50px;
     border-radius:10px;
@@ -85,5 +86,89 @@
     display:block;
     color: white;
     font-size: 25px;
+}
+
+@media(max-width:490px){
+
+ .section-proyects{
+    flex-direction: column;
+    margin-bottom: 100px;
+ }
+    
+
+
+
+        .section-proyects{
+            top: 50px;
+            flex-direction: column;
+            align-items: center;
+            width: auto;      
+            height:600px !important;
+        }
+        .section-proyects  .figure:hover {
+            transform: none !important;
+            height: 470px !important;
+            transition: none !important;  
+            border-radius: 0px !important;
+        }
+    
+        .div-parrafo-proyectos{
+            width: 270px !important;
+            margin: auto !important;
+        }
+        .parrafo-proyectos{
+            font-size: 15px !important;
+        }
+    
+        .container-img-proyects > .img-proyects {
+            width:100% !important;
+            max-width: 100%;
+            object-fit: cover;
+            margin-top: 0px !important;
+            height: 100% !important;
+     
+        }
+
+        .figure > h1{
+            
+        }
+
+        
+        .figure:hover >  h1{
+            display: none;
+        }
+    
+    
+        .figure{
+            width: 90% !important;
+            margin: 5px auto auto auto;
+            transform: none !important;
+            
+        }
+
+        .container-img-proyects:hover > .img-proyects{
+            filter: brightness( 100%);
+        }
+
+        .figure:hover > .container-info-proyect{
+            display: none !important;;
+        }
+    
+    
+        .figure:hover > .h1-proyects{
+            display: none;
+        }
+    
+        .figure:nth-last-child(-n + 1){
+            border-radius: 0px 0px 0px 0px !important;
+        }
+        
+        
+        .figure:nth-child(1){
+            border-radius: 0px 0px 0px 0px !important;
+            box-shadow: 0px 0px 4px black;
+        } 
+
+    
 }
 
