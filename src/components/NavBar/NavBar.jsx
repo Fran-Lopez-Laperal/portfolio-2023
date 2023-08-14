@@ -12,23 +12,23 @@ function NavBar() {
                 <div className='nav-container'>
                     <nav className='menu'>
                         <div className='inner'>
-                            <Link className="fa fa-home" aria-hidden="true" to='home'></Link>
+                            <Link className="fa fa-home" aria-hidden="true" smooth={true} duration={600} offset={-50} to='home'></Link>
                         </div>
                         <div className='inner'>
-                            <Link  className='fa fa-user' to='about-me' ></Link>
+                            <Link  className='fa fa-user' smooth={true} duration={600} offset={-50} to='about-me' ></Link>
                         </div>
                         {/* <div className='inner'>
                             <Link  className="fa fa-code-fork" aria-hidden="true" to='training'></Link>
                         </div> */}
                         <div className='inner'>
-                            <Link className="fa fa-laptop" aria-hidden="true" to='hard-skills'></Link>
+                            <Link className="fa fa-laptop" aria-hidden="true" smooth={true} duration={600} offset={-50} to='hard-skills'></Link>
                         </div>
                         
                         <div className='inner'>
-                            <Link className="fa fa-briefcase" aria-hidden="true" to='proyects'></Link>
+                            <Link className="fa fa-briefcase" aria-hidden="true" smooth={true} duration={600} offset={-50} to='proyects'></Link>
                         </div>
                         <div className='inner'>
-                            <Link className="fa fa-phone" aria-hidden="true" to='email'></Link>
+                            <Link className="fa fa-phone" aria-hidden="true" smooth={true} duration={600} offset={-50} to='email'></Link>
                         </div>
                     </nav>
                 </div>
