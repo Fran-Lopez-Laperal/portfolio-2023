@@ -9,6 +9,7 @@ import Proyects from '../../components/Proyects/Proyects'
 import EmailSend from '../../components/EmailSend/EmailSend'
 import HardSkills from '../../components/HardSkills/HardSkills'
 import Training from '../../components/Training/Training'
+import Links from '../../components/Links/Links'
 
 
 
@@ -98,6 +99,9 @@ function Home() {
                     <EmailSend
                         style={{ overflowY: 'scroll', scrollBehavior: 'smooth' }}
                     />
+                </div>
+                <div>
+                    <Links/>
                 </div>
             </div>
 
