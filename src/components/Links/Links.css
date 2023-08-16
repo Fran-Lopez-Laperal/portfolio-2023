@@ -28,3 +28,20 @@
 .img_social_links{
     width: 3rem;
 }
+
+
+@media(max-width:550px){
+    .links_aside{
+        width: 200px;
+        height: 1rem;
+        border-radius:0 0 0.5rem 0;
+        flex-direction: row;
+        left: 0;
+        right: auto;
+        top: 0;
+    }
+
+    .img_social_links{
+        width: 2.5rem;
+    }
+}
