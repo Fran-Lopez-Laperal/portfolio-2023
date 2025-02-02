@@ -6,6 +6,7 @@ import bikeLocker from '../../assets/images/bike-locker.png'
 import hackedex from '../../assets/images/Hackedex.png'
 import cyber from '../../assets/images/Cyber Space.png'
 import postit from '../../assets/images/Proyecto Bootcamp.png'
+import telmo from '../../assets/images/telmo.png'
 
 
 function Proyects() {
@@ -23,6 +24,21 @@ function Proyects() {
                 </div> */}
 
                 <section className='section-proyects'>
+
+                <Link className="figure" id='figure' to='' style={{ textDecoration: 'none' }}>
+                        <div className='container-img-proyects'>
+                            <img className='img-proyects' id='img-proyects' src={telmo} alt="" />
+                        </div>
+                       
+                            <h1 className='h1-proyects'>Obras y Reformas  Telmo</h1>
+                   
+
+                        {/*  <div className='container-info-proyect' id='container-info-proyect'>
+                            <p className='info-proyect'>El proyecto se trata de una API de noticias realizada con Node.js, Express y MySQL.
+
+                            </p>
+                        </div> */}
+                    </Link>
                  
                     <Link className="figure" id='figure' to='https://github.com/Fran-Lopez-Laperal/Front-Postit-News' style={{ textDecoration: 'none' }}>
                         <div className='container-img-proyects'>
